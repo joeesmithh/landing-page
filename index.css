@@ -9,11 +9,19 @@
 }
 
 .top {
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.top,
+.bottom {
+    margin: 0px 128px;
 }
 
 .header{
     display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
 }
 
 .logo {
@@ -33,11 +41,18 @@ li {
 }
 
 .hero-content {
-    
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 }
 
 .hero-left {
+    /* As container */
+    display: flex;
+    flex-direction: column;
 
+    /* As element */
+    flex: 1;
 }
 
 .hero-header {
@@ -53,11 +68,14 @@ button {
 }
 
 .sign-up {
-
+    width: 64px;
 }
 
 .hero-right {
-
+    background-color: #e5e7eb;
+    text-align: center;
+    align-content: center;
+    flex: 1;
 }
 
 .middle {
@@ -93,7 +111,7 @@ button {
 }
 
 .bottom {
-
+    background-color: #3882F6;
 }
 
 .cta-container {
