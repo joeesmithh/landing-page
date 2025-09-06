@@ -9,15 +9,14 @@
 body {
 }
 
+.margin {
+    margin: 0px 128px;
+}
+
 .top {
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
-}
-
-.header,
-.hero-content {
-  margin: 0px 128px;
 }
 
 .header {
