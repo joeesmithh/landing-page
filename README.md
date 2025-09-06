@@ -1,2 +1,2 @@
 ## Landing Page
-Practice exercise for HTML/CSS lesson.
+Practice exercise for HTML/CSS web development.
