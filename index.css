@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-.body {
+body {
+    margin: 0px 10vw;
 }
 
 .top {
@@ -12,11 +13,11 @@
   flex-direction: column;
 }
 
-.top,
+/* .top,
 .bottom,
 .middle {
   margin: 0px 128px;
-}
+} */
 
 .header {
   display: flex;
