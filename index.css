@@ -44,6 +44,8 @@ li {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+
+    margin: 48px 0px;
 }
 
 .hero-left {
